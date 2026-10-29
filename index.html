@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f5e9">
+    <meta name="description" content="Poetree is a quiet home for poems. Discover poets, read in a space that feels like yours, and save the words you love.">
+    <title>Poetree — Poems for Every Heart</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="preload" as="image" href="assets/poetree-art.webp">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#top" aria-label="Poetree, back to top">
+          <img src="assets/poetree-icon.webp" width="42" height="42" alt="">
+          <span>Poetree</span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#experience">The experience</a>
+          <a href="#inside-the-app">Inside the app</a>
+          <a class="nav-cta" href="#coming-soon">Coming soon <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> Poems for every heart</p>
+            <h1 id="hero-title">Let a poem <em>find you.</em></h1>
+            <p class="hero-description">A quieter place to discover poets, settle into their words, and keep the poems that stay with you.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#inside-the-app">Explore Poetree <span aria-hidden="true">↗</span></a>
+              <span class="availability"><span class="availability-dot"></span> Coming soon on iPhone</span>
+            </div>
+            <div class="hero-note" aria-hidden="true"><span class="note-star">✳</span><span>Read slowly.<br>Feel deeply.</span></div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-halo" aria-hidden="true"></div>
+            <figure class="art-frame">
+              <img src="assets/poetree-art.webp" width="941" height="1672" alt="Poetree botanical artwork, with a tree-shaped letter P among green and golden leaves">
+            </figure>
+            <span class="visual-caption">A little room for wonder <span aria-hidden="true">✦</span></span>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#experience" aria-label="Scroll to the Poetree experience"><span></span> Scroll to explore</a>
+      </section>
+
+      <section class="intro section-pad" id="experience" aria-labelledby="intro-title">
+        <div class="shell">
+          <div class="section-heading intro-heading" data-reveal>
+            <p class="eyebrow">The experience <span class="eyebrow-number">/ 01</span></p>
+            <h2 id="intro-title">More than words<br>on a <em>page.</em></h2>
+            <p>Poetree gives every poem a moment of your attention. Find something new, make the reading space your own, and return to what moved you.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature" data-reveal>
+              <span class="feature-number">01</span>
+              <div class="feature-symbol" aria-hidden="true">✺</div>
+              <h3>Discover a voice</h3>
+              <p>Browse poets and follow the lines that catch your eye.</p>
+            </article>
+            <article class="feature" data-reveal>
+              <span class="feature-number">02</span>
+              <div class="feature-symbol feature-symbol-leaf" aria-hidden="true">❧</div>
+              <h3>Read your way</h3>
+              <p>Choose your language, type, and appearance for an inviting reading space.</p>
+            </article>
+            <article class="feature" data-reveal>
+              <span class="feature-number">03</span>
+              <div class="feature-symbol" aria-hidden="true">✳</div>
+              <h3>Keep what stays</h3>
+              <p>Save favourite poems and come back when you need them.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="app-section section-pad" id="inside-the-app" aria-labelledby="app-title">
+        <div class="shell app-grid">
+          <div class="app-copy" data-reveal>
+            <p class="eyebrow">Inside the app <span class="eyebrow-number">/ 02</span></p>
+            <h2 id="app-title">Made for the way poems make you <em>pause.</em></h2>
+            <p class="app-lede">A beautiful reading space, with just enough to help you find your next favourite line.</p>
+            <div class="screen-tabs" role="tablist" aria-label="App screen previews">
+              <button class="screen-tab is-active" type="button" role="tab" id="tab-read" aria-controls="panel-read" aria-selected="true" tabindex="0" data-screen="read">
+                <span class="tab-index">01</span><span>Read</span><span class="tab-arrow" aria-hidden="true">↗</span>
+              </button>
+              <button class="screen-tab" type="button" role="tab" id="tab-discover" aria-controls="panel-discover" aria-selected="false" tabindex="-1" data-screen="discover">
+                <span class="tab-index">02</span><span>Discover</span><span class="tab-arrow" aria-hidden="true">↗</span>
+              </button>
+              <button class="screen-tab" type="button" role="tab" id="tab-personalise" aria-controls="panel-personalise" aria-selected="false" tabindex="-1" data-screen="personalise">
+                <span class="tab-index">03</span><span>Make it yours</span><span class="tab-arrow" aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </div>
+          <div class="preview-stage" data-reveal>
+            <div class="preview-orbit" aria-hidden="true"></div>
+            <div class="preview-leaf preview-leaf-one" aria-hidden="true"></div>
+            <div class="preview-leaf preview-leaf-two" aria-hidden="true"></div>
+            <div class="phone" id="panel-read" role="tabpanel" aria-labelledby="tab-read">
+              <img src="assets/reader-hindi.webp" width="1170" height="2532" alt="Poetree's warm, light poem reader showing a Hindi poem" loading="lazy">
+            </div>
+            <div class="phone" id="panel-discover" role="tabpanel" aria-labelledby="tab-discover" hidden>
+              <img src="assets/poet-list-dark.webp" width="1170" height="2532" alt="Poetree's dark poet page listing poems by Emily Brontë" loading="lazy">
+            </div>
+            <div class="phone" id="panel-personalise" role="tabpanel" aria-labelledby="tab-personalise" hidden>
+              <img src="assets/appearance-dark.webp" width="1170" height="2532" alt="Poetree appearance settings showing light and dark reading backgrounds" loading="lazy">
+            </div>
+            <span class="preview-caption">A glimpse of Poetree <span aria-hidden="true">✦</span></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section" aria-label="A thought about poetry">
+        <div class="shell quote-inner" data-reveal>
+          <span class="quote-flourish" aria-hidden="true">❧</span>
+          <p>Some words are meant to be <em>lived in.</em></p>
+          <span class="quote-flourish" aria-hidden="true">❧</span>
+        </div>
+      </section>
+
+      <section class="closing section-pad" id="coming-soon" aria-labelledby="closing-title">
+        <div class="shell closing-grid">
+          <div class="closing-mark" aria-hidden="true"><img src="assets/poetree-icon.webp" width="360" height="360" alt="" loading="lazy"></div>
+          <div class="closing-copy" data-reveal>
+            <p class="eyebrow">A new chapter <span class="eyebrow-number">/ 03</span></p>
+            <h2 id="closing-title">Your next favourite poem is <em>waiting.</em></h2>
+            <p>Poetree is coming soon to iPhone. Until then, take a breath. There is always room for one more poem.</p>
+            <div class="coming-soon-badge"><span class="availability-dot"></span> Coming soon on iPhone</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <a class="brand footer-brand" href="#top" aria-label="Poetree, back to top"><img src="assets/poetree-icon.webp" width="32" height="32" alt=""><span>Poetree</span></a>
+        <p>Poems for every heart.</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
